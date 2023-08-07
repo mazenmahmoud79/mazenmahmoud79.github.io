@@ -1,3 +1,66 @@
+/* Mobile styles */
+@media (max-width: 768px) {
+
+    /* Adjust header styles for smaller screens */
+    header {
+        padding: 2rem 0;
+    }
+
+    /* Adjust home content layout for smaller screens */
+    .home-content {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .home-image img {
+        max-height: 300px;
+    }
+
+    /* Adjust section padding for smaller screens */
+    section {
+        padding: 2rem;
+    }
+
+    /* Adjust education item layout for smaller screens */
+    .education-item {
+        padding-left: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Adjust skill category layout for smaller screens */
+    .skill-category {
+        border-left: none;
+        padding-left: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Adjust experience item layout for smaller screens */
+    .experience-item h3 {
+        padding-left: 1rem;
+    }
+
+    .experience-item p {
+        padding-left: 1rem;
+    }
+
+    /* Adjust project layout for smaller screens */
+    .project h3,
+    .project-list {
+        padding-left: 1rem;
+    }
+
+    /* Adjust certificate layout for smaller screens */
+    .certificate h3 {
+        padding-left: 1rem;
+    }
+
+    /* Adjust contact item layout for smaller screens */
+    .contact-item {
+        flex-basis: 100%;
+        margin-bottom: 1.5rem;
+    }
+}
+
 /* Reset default margin and padding */
 body,
 h1,
