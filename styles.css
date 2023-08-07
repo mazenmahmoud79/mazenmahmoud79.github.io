@@ -1,0 +1,484 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Update font for headings */
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Styling for the "Home" section */
+/* Styling for the "Home" section */
+#home {
+    background-color: #fff;
+    padding: 6rem 0;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.home-image img {
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 8%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-text {
+    flex: 1;
+    padding-left: 2rem;
+}
+
+.home-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.home-text p {
+    font-size: 1.25rem;
+    color: #666;
+}
+
+/* ... Your existing styles ... */
+
+header {
+    background-image: url('header-background-image.jpg');
+    /* Add your image path */
+    background-size: cover;
+    text-align: center;
+    padding: 4rem 0;
+    color: #000;
+    /* Change text color to black */
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* Center the navigation links */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    /* Change link color to black */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+/* Styling for sections */
+section {
+    padding: 4rem 0;
+}
+
+/* Add background colors to sections */
+#about {
+    background-color: #f9f9f9;
+}
+
+/* Styling for the "Education" section */
+#education {
+    background-color: #fff;
+    padding: 4rem 0;
+}
+
+.education-item {
+    border-left: 2px solid #ff9900;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.education-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.education-item p {
+    margin: 0.5rem 0;
+}
+
+.coursework-list {
+    list-style: disc;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.coursework-list li {
+    margin-bottom: 0.5rem;
+}
+
+/* ... Your existing styles ... */
+/* Styling for the "Skills" section */
+/* Styling for the "Skills" section */
+/* Styling for the "Skills" section */
+/* Styling for the "Skills" section */
+/* Styling for the "Skills" section */
+#skills {
+    background-color: #fff;
+    padding: 4rem 0;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.skill-category {
+    border-left: 2px solid #ff9900;
+    padding-left: 1rem;
+}
+
+.skill-category h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skill-list {
+    list-style: disc;
+    margin: 0.25rem 0;
+    padding-left: 1rem;
+}
+
+.skill-category p {
+    margin: 0.25rem 0;
+}
+
+
+/* Styling for the "Experience" section */
+/* Styling for the "Experience" section */
+/* Styling for the "Experience" section */
+/* Styling for the "Experience" section */
+/* Styling for the "Experience" section */
+/* Styling for the "Experience" section */
+/* Styling for the "Experience" section */
+#experience {
+    background-color: #f5f5f5;
+    padding: 4rem 0;
+}
+
+.experience-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.experience-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    /* Adjust as needed */
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: #ff9900;
+    border-radius: 0 4px 4px 0;
+}
+
+.experience-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    /* Adjust padding for text alignment */
+}
+
+.experience-item p {
+    margin-bottom: 0.5rem;
+    padding-left: 3rem;
+    /* Adjust padding for text alignment */
+}
+
+.experience-content {
+    flex: 1;
+}
+
+.experience-item p {
+    margin: 0.5rem 0;
+}
+
+.experience-item:hover {
+    transform: translateY(-5px);
+}
+
+/* ... Your existing styles ... */
+/* ... Your existing styles ... */
+/* ... Your existing styles ... */
+/* Styling for the "Projects" section */
+/* Styling for the "Projects" section */
+/* Styling for the "Projects" section */
+/* Styling for the "Projects" section */
+#projects {
+    background-color: #f5f5f5;
+    padding: 4rem 0;
+}
+
+.project {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    position: relative;
+    transition: transform 0.2s;
+}
+
+.project::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: #ff9900;
+    border-radius: 0 4px 4px 0;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+.project-list {
+    list-style: disc;
+    margin: 0.5rem 0 0 2rem;
+    /* Adjusted margin to remove space */
+    padding-left: 1rem;
+}
+
+.project p {
+    margin-top: 0.5rem;
+    padding-left: 2rem;
+}
+
+/* ... Your existing styles ... */
+/* ... Your existing styles ... */
+/* ... Your existing styles ... */
+
+/* ... Your existing styles ... */
+
+/* ... Your existing styles ... */
+/* Styling for the "Contact" section */
+/* Styling for the "Contact" section */
+/* Styling for the "Contact" section */
+/* Styling for the "Contact" section */
+#contact {
+    background-color: #f5f5f5;
+    padding: 4rem 0;
+    display: none;
+}
+
+.contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.contact-item {
+    flex-basis: calc(33.33% - 2rem);
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.contact-item:hover {
+    transform: translateY(-5px);
+}
+
+.contact-icon {
+    font-size: 2rem;
+    color: #ff9900;
+    margin-bottom: 1rem;
+}
+
+.contact-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-details {
+    display: none;
+    color: #666;
+}
+
+.contact-details.active {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+/* Styling for the "Certificates" section */
+/* Styling for the "Certificates" section */
+/* Styling for the "Certificates" section */
+#certificates {
+    background-color: #f5f5f5;
+    padding: 4rem 0;
+}
+
+.certificate {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    position: relative;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.certificate::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: #ff9900;
+    /* Use the same color as in other sections */
+    border-radius: 0 4px 4px 0;
+}
+
+.certificate h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    /* Adjusted margin */
+    padding-left: 1.5rem;
+}
+
+/* ... Your existing styles ... */
+/* ... Your existing styles ... */
+
+/* ... Your existing styles ... */
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Styling for sections */
+/* Styling for sections */
+section {
+    background-color: #fff;
+    /* Set the background color to white */
+    border: 1px solid #ddd;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Add margin to the container */
+section:first-child {
+    margin-top: 2rem;
+}
+
+/* ... Your existing styles ... */
+/* Styling for project cards */
+
+
+/* Styling for footer */
+/* Styling for the footer */
+footer {
+    background-color: #333;
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    /* Make the footer fixed */
+    width: 100%;
+    bottom: 0;
+    color: #f5f5f5;
+    /* Position it at the bottom */
+}
+
+/* Styling for headings */
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+/* Styling for navigation links */
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+/* Add "hidden" class to hide sections */
+.hidden {
+    display: none;
+}
+
+/* ... Your existing styles ... */
+
+
+/* Adjust the margin-top for sections */
+
+
+/* ... Your existing styles ... */
+
+
+.container {
+    margin-top: 0px;
+}
+
+/* Styling for sections */
+
+/* ... Your existing styles ... */
